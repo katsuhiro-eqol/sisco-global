@@ -17,7 +17,7 @@ def insert_body():
     with open("exams.csv") as f:
         reader = csv.reader(f)
         for row in reader:
-            print(row[0])
+            print(row)
             #cur.execute('INSERT INTO exams_list(name) values("Taro")')
 
 
